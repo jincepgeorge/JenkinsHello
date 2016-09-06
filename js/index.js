@@ -385,7 +385,9 @@ angular.module("app", ["chart.js", "AWSDynamoService"]).controller("LineCtrl", f
 
             $scope.humSeries = ['Real Humidity', ];
             $scope.windSeries = ['Ac Voltage'];
-            
+            console.log("Testing update");
+            console.log("Testing update");
+
 
             // $scope.graphData=angularArray;
             $scope.tempData = [
